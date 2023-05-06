@@ -26,7 +26,7 @@ abstract class Archetype implements IArchetype {
     return this._cost;
   }
 
-  static get createdArchetypeInstances(): number {
+  static createdArchetypeInstances(): number {
     throw new Error('Not implemented');
   }
 
